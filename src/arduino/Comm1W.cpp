@@ -56,7 +56,8 @@ void commLoop() {
 
       if (comm_index >= 10) {
         comm_index = 0;
-        digitalWrite(COMM_WIRE, true);
+        
+        comm_sending_sync = true;
         comm_sending_sync_1 = true;
         comm_sending_sync_2 = false;
       }
