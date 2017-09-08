@@ -26,4 +26,7 @@ target/
 target/*
 out
 target
+.idea/
+.idea/*
+.idea
 
